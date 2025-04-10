@@ -36,16 +36,19 @@
             this.lbl_usuario2 = new System.Windows.Forms.Label();
             this.lbl_usuario = new System.Windows.Forms.Label();
             this.panelformularios = new System.Windows.Forms.Panel();
-            this.Pic_empresa = new System.Windows.Forms.PictureBox();
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.Btn_ayuda = new System.Windows.Forms.Button();
-            this.Btn_Salir = new System.Windows.Forms.Button();
             this.panelMenuProcesos = new System.Windows.Forms.Panel();
+            this.Btn_ComProc6 = new System.Windows.Forms.Button();
+            this.Btn_ComProc5 = new System.Windows.Forms.Button();
+            this.Btn_ComProc4 = new System.Windows.Forms.Button();
+            this.Btn_ComProc3 = new System.Windows.Forms.Button();
+            this.Btn_ComProcV1 = new System.Windows.Forms.Button();
+            this.Btn_ComProcC1 = new System.Windows.Forms.Button();
             this.Btn_Cuentas = new System.Windows.Forms.Button();
             this.Btn_CuentProcProv1 = new System.Windows.Forms.Button();
+            this.Btn_CuentProcCl1 = new System.Windows.Forms.Button();
             this.Btn_CuentProcProv2 = new System.Windows.Forms.Button();
             this.Btn_CuentProcCl2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.Btn_MenuProcesosOpcion7 = new System.Windows.Forms.Button();
             this.Btn_MenuProcesosOpcion6 = new System.Windows.Forms.Button();
             this.Btn_MenuProcesosOpcion5 = new System.Windows.Forms.Button();
@@ -53,47 +56,47 @@
             this.Btn_MenuProcesosOpcion3 = new System.Windows.Forms.Button();
             this.Btn_MenuProcesosOpcion2 = new System.Windows.Forms.Button();
             this.Btn_MenuProcesosOpcion1 = new System.Windows.Forms.Button();
-            this.Btn_MenuProcesos = new System.Windows.Forms.Button();
             this.panelMenuCatalogos = new System.Windows.Forms.Panel();
             this.Btn_ComMant4 = new System.Windows.Forms.Button();
             this.Btn_ComMant3 = new System.Windows.Forms.Button();
             this.Btn_ComMant1 = new System.Windows.Forms.Button();
-            this.btnSeparacionComercial = new System.Windows.Forms.Button();
             this.Btn_CuentMantProv1 = new System.Windows.Forms.Button();
             this.Btn_CuentMantClient4 = new System.Windows.Forms.Button();
             this.Btn_CuentMantClient3 = new System.Windows.Forms.Button();
             this.Btn_CuentMantClient2 = new System.Windows.Forms.Button();
             this.Btn_CuentMantClient1 = new System.Windows.Forms.Button();
-            this.btnSeparacionCuentasCorrientes = new System.Windows.Forms.Button();
             this.Btn_MenuCatalogosOpcion6 = new System.Windows.Forms.Button();
             this.Btn_MenuCatalogosOpcion5 = new System.Windows.Forms.Button();
             this.Btn_MenuCatalogosOpcion4 = new System.Windows.Forms.Button();
             this.Btn_MenuCatalogosOpcion3 = new System.Windows.Forms.Button();
             this.Btn_MenuCatalogosOpcion2 = new System.Windows.Forms.Button();
             this.Btn_MenuCatalogosOpcion1 = new System.Windows.Forms.Button();
-            this.Btn_MenuCatalogos = new System.Windows.Forms.Button();
             this.panelBarraTitulo = new System.Windows.Forms.Panel();
+            this.Btn_SIUMant1 = new System.Windows.Forms.Button();
+            this.Lbl_nombrecarnet = new System.Windows.Forms.Label();
+            this.Pic_empresa = new System.Windows.Forms.PictureBox();
+            this.Btn_ayuda = new System.Windows.Forms.Button();
+            this.Btn_Salir = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.Btn_MenuProcesos = new System.Windows.Forms.Button();
+            this.btnSeparacionSIU = new System.Windows.Forms.Button();
+            this.btnSeparacionComercial = new System.Windows.Forms.Button();
+            this.btnSeparacionCuentasCorrientes = new System.Windows.Forms.Button();
+            this.Btn_MenuCatalogos = new System.Windows.Forms.Button();
             this.Pic_logistica = new System.Windows.Forms.PictureBox();
             this.btnRestaurar = new System.Windows.Forms.PictureBox();
             this.btnMinimizar = new System.Windows.Forms.PictureBox();
             this.btnMaximizar = new System.Windows.Forms.PictureBox();
             this.btnCerrar = new System.Windows.Forms.PictureBox();
-            this.Btn_CuentProcCl1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.Btn_ComProcC1 = new System.Windows.Forms.Button();
-            this.Btn_ComProcV1 = new System.Windows.Forms.Button();
-            this.Btn_ComProc3 = new System.Windows.Forms.Button();
-            this.Btn_ComProc4 = new System.Windows.Forms.Button();
-            this.Btn_ComProc5 = new System.Windows.Forms.Button();
-            this.Btn_ComProc6 = new System.Windows.Forms.Button();
             this.panelContenedor.SuspendLayout();
             this.panelIdentificacion.SuspendLayout();
             this.panelformularios.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Pic_empresa)).BeginInit();
             this.panelMenu.SuspendLayout();
             this.panelMenuProcesos.SuspendLayout();
             this.panelMenuCatalogos.SuspendLayout();
             this.panelBarraTitulo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_empresa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_logistica)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).BeginInit();
@@ -186,19 +189,6 @@
             this.panelformularios.TabIndex = 2;
             this.panelformularios.Paint += new System.Windows.Forms.PaintEventHandler(this.panelformularios_Paint);
             // 
-            // Pic_empresa
-            // 
-            this.Pic_empresa.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.Pic_empresa.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Pic_empresa.Image = global::Capa_Vista_Logistica.Properties.Resources.vault;
-            this.Pic_empresa.Location = new System.Drawing.Point(292, 110);
-            this.Pic_empresa.Margin = new System.Windows.Forms.Padding(2);
-            this.Pic_empresa.Name = "Pic_empresa";
-            this.Pic_empresa.Size = new System.Drawing.Size(422, 380);
-            this.Pic_empresa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.Pic_empresa.TabIndex = 0;
-            this.Pic_empresa.TabStop = false;
-            // 
             // panelMenu
             // 
             this.panelMenu.AutoScroll = true;
@@ -215,48 +205,6 @@
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(182, 634);
             this.panelMenu.TabIndex = 1;
-            // 
-            // Btn_ayuda
-            // 
-            this.Btn_ayuda.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Btn_ayuda.FlatAppearance.BorderSize = 0;
-            this.Btn_ayuda.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(50)))), ((int)(((byte)(70)))));
-            this.Btn_ayuda.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(61)))), ((int)(((byte)(92)))));
-            this.Btn_ayuda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_ayuda.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_ayuda.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Btn_ayuda.Image = global::Capa_Vista_Logistica.Properties.Resources.preguntas_1;
-            this.Btn_ayuda.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_ayuda.Location = new System.Drawing.Point(0, 1349);
-            this.Btn_ayuda.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn_ayuda.Name = "Btn_ayuda";
-            this.Btn_ayuda.Size = new System.Drawing.Size(165, 35);
-            this.Btn_ayuda.TabIndex = 12;
-            this.Btn_ayuda.Text = "Ayuda";
-            this.Btn_ayuda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Btn_ayuda.UseVisualStyleBackColor = true;
-            this.Btn_ayuda.Click += new System.EventHandler(this.Btn_ayuda_Click);
-            // 
-            // Btn_Salir
-            // 
-            this.Btn_Salir.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Btn_Salir.FlatAppearance.BorderSize = 0;
-            this.Btn_Salir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(50)))), ((int)(((byte)(70)))));
-            this.Btn_Salir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(61)))), ((int)(((byte)(92)))));
-            this.Btn_Salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_Salir.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_Salir.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Btn_Salir.Image = global::Capa_Vista_Logistica.Properties.Resources.cerrar_sesion_1;
-            this.Btn_Salir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_Salir.Location = new System.Drawing.Point(0, 1384);
-            this.Btn_Salir.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn_Salir.Name = "Btn_Salir";
-            this.Btn_Salir.Size = new System.Drawing.Size(165, 35);
-            this.Btn_Salir.TabIndex = 7;
-            this.Btn_Salir.Text = "Salir";
-            this.Btn_Salir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Btn_Salir.UseVisualStyleBackColor = true;
-            this.Btn_Salir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // panelMenuProcesos
             // 
@@ -282,12 +230,120 @@
             this.panelMenuProcesos.Controls.Add(this.Btn_MenuProcesosOpcion2);
             this.panelMenuProcesos.Controls.Add(this.Btn_MenuProcesosOpcion1);
             this.panelMenuProcesos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelMenuProcesos.Location = new System.Drawing.Point(0, 640);
+            this.panelMenuProcesos.Location = new System.Drawing.Point(0, 710);
             this.panelMenuProcesos.Margin = new System.Windows.Forms.Padding(2);
             this.panelMenuProcesos.Name = "panelMenuProcesos";
             this.panelMenuProcesos.Size = new System.Drawing.Size(165, 709);
             this.panelMenuProcesos.TabIndex = 6;
             this.panelMenuProcesos.Visible = false;
+            // 
+            // Btn_ComProc6
+            // 
+            this.Btn_ComProc6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Btn_ComProc6.FlatAppearance.BorderSize = 0;
+            this.Btn_ComProc6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_ComProc6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_ComProc6.ForeColor = System.Drawing.Color.Black;
+            this.Btn_ComProc6.Location = new System.Drawing.Point(0, 679);
+            this.Btn_ComProc6.Margin = new System.Windows.Forms.Padding(2);
+            this.Btn_ComProc6.Name = "Btn_ComProc6";
+            this.Btn_ComProc6.Padding = new System.Windows.Forms.Padding(26, 0, 0, 0);
+            this.Btn_ComProc6.Size = new System.Drawing.Size(165, 30);
+            this.Btn_ComProc6.TabIndex = 32;
+            this.Btn_ComProc6.Text = "Pedidos";
+            this.Btn_ComProc6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_ComProc6.UseVisualStyleBackColor = true;
+            this.Btn_ComProc6.Click += new System.EventHandler(this.Btn_ComProc6_Click);
+            // 
+            // Btn_ComProc5
+            // 
+            this.Btn_ComProc5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Btn_ComProc5.FlatAppearance.BorderSize = 0;
+            this.Btn_ComProc5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_ComProc5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_ComProc5.ForeColor = System.Drawing.Color.Black;
+            this.Btn_ComProc5.Location = new System.Drawing.Point(0, 649);
+            this.Btn_ComProc5.Margin = new System.Windows.Forms.Padding(2);
+            this.Btn_ComProc5.Name = "Btn_ComProc5";
+            this.Btn_ComProc5.Padding = new System.Windows.Forms.Padding(26, 0, 0, 0);
+            this.Btn_ComProc5.Size = new System.Drawing.Size(165, 30);
+            this.Btn_ComProc5.TabIndex = 31;
+            this.Btn_ComProc5.Text = "Factura";
+            this.Btn_ComProc5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_ComProc5.UseVisualStyleBackColor = true;
+            this.Btn_ComProc5.Click += new System.EventHandler(this.Btn_ComProc5_Click);
+            // 
+            // Btn_ComProc4
+            // 
+            this.Btn_ComProc4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Btn_ComProc4.FlatAppearance.BorderSize = 0;
+            this.Btn_ComProc4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_ComProc4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_ComProc4.ForeColor = System.Drawing.Color.Black;
+            this.Btn_ComProc4.Location = new System.Drawing.Point(0, 619);
+            this.Btn_ComProc4.Margin = new System.Windows.Forms.Padding(2);
+            this.Btn_ComProc4.Name = "Btn_ComProc4";
+            this.Btn_ComProc4.Padding = new System.Windows.Forms.Padding(26, 0, 0, 0);
+            this.Btn_ComProc4.Size = new System.Drawing.Size(165, 30);
+            this.Btn_ComProc4.TabIndex = 30;
+            this.Btn_ComProc4.Text = "Cotización";
+            this.Btn_ComProc4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_ComProc4.UseVisualStyleBackColor = true;
+            this.Btn_ComProc4.Click += new System.EventHandler(this.Btn_ComProc4_Click);
+            // 
+            // Btn_ComProc3
+            // 
+            this.Btn_ComProc3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Btn_ComProc3.FlatAppearance.BorderSize = 0;
+            this.Btn_ComProc3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_ComProc3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_ComProc3.ForeColor = System.Drawing.Color.Black;
+            this.Btn_ComProc3.Location = new System.Drawing.Point(0, 589);
+            this.Btn_ComProc3.Margin = new System.Windows.Forms.Padding(2);
+            this.Btn_ComProc3.Name = "Btn_ComProc3";
+            this.Btn_ComProc3.Padding = new System.Windows.Forms.Padding(26, 0, 0, 0);
+            this.Btn_ComProc3.Size = new System.Drawing.Size(165, 30);
+            this.Btn_ComProc3.TabIndex = 29;
+            this.Btn_ComProc3.Text = "Comisiones";
+            this.Btn_ComProc3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_ComProc3.UseVisualStyleBackColor = true;
+            this.Btn_ComProc3.Click += new System.EventHandler(this.Btn_ComProc3_Click);
+            // 
+            // Btn_ComProcV1
+            // 
+            this.Btn_ComProcV1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Btn_ComProcV1.FlatAppearance.BorderSize = 0;
+            this.Btn_ComProcV1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_ComProcV1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_ComProcV1.ForeColor = System.Drawing.Color.Black;
+            this.Btn_ComProcV1.Location = new System.Drawing.Point(0, 559);
+            this.Btn_ComProcV1.Margin = new System.Windows.Forms.Padding(2);
+            this.Btn_ComProcV1.Name = "Btn_ComProcV1";
+            this.Btn_ComProcV1.Padding = new System.Windows.Forms.Padding(26, 0, 0, 0);
+            this.Btn_ComProcV1.Size = new System.Drawing.Size(165, 30);
+            this.Btn_ComProcV1.TabIndex = 28;
+            this.Btn_ComProcV1.Text = "Venta";
+            this.Btn_ComProcV1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_ComProcV1.UseVisualStyleBackColor = true;
+            this.Btn_ComProcV1.Click += new System.EventHandler(this.Btn_ComProcV1_Click);
+            // 
+            // Btn_ComProcC1
+            // 
+            this.Btn_ComProcC1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Btn_ComProcC1.FlatAppearance.BorderSize = 0;
+            this.Btn_ComProcC1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_ComProcC1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_ComProcC1.ForeColor = System.Drawing.Color.Black;
+            this.Btn_ComProcC1.Location = new System.Drawing.Point(0, 529);
+            this.Btn_ComProcC1.Margin = new System.Windows.Forms.Padding(2);
+            this.Btn_ComProcC1.Name = "Btn_ComProcC1";
+            this.Btn_ComProcC1.Padding = new System.Windows.Forms.Padding(26, 0, 0, 0);
+            this.Btn_ComProcC1.Size = new System.Drawing.Size(165, 30);
+            this.Btn_ComProcC1.TabIndex = 27;
+            this.Btn_ComProcC1.Text = "Compra";
+            this.Btn_ComProcC1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_ComProcC1.UseVisualStyleBackColor = true;
+            this.Btn_ComProcC1.Click += new System.EventHandler(this.Btn_ComProcC1_Click);
             // 
             // Btn_Cuentas
             // 
@@ -325,6 +381,24 @@
             this.Btn_CuentProcProv1.UseVisualStyleBackColor = true;
             this.Btn_CuentProcProv1.Click += new System.EventHandler(this.Btn_CuentProcProv1_Click);
             // 
+            // Btn_CuentProcCl1
+            // 
+            this.Btn_CuentProcCl1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Btn_CuentProcCl1.FlatAppearance.BorderSize = 0;
+            this.Btn_CuentProcCl1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_CuentProcCl1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_CuentProcCl1.ForeColor = System.Drawing.Color.Black;
+            this.Btn_CuentProcCl1.Location = new System.Drawing.Point(0, 351);
+            this.Btn_CuentProcCl1.Margin = new System.Windows.Forms.Padding(2);
+            this.Btn_CuentProcCl1.Name = "Btn_CuentProcCl1";
+            this.Btn_CuentProcCl1.Padding = new System.Windows.Forms.Padding(26, 0, 0, 0);
+            this.Btn_CuentProcCl1.Size = new System.Drawing.Size(165, 47);
+            this.Btn_CuentProcCl1.TabIndex = 23;
+            this.Btn_CuentProcCl1.Text = "Deudas Clientes";
+            this.Btn_CuentProcCl1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_CuentProcCl1.UseVisualStyleBackColor = true;
+            this.Btn_CuentProcCl1.Click += new System.EventHandler(this.Btn_CuentProcCl1_Click);
+            // 
             // Btn_CuentProcProv2
             // 
             this.Btn_CuentProcProv2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -360,27 +434,6 @@
             this.Btn_CuentProcCl2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_CuentProcCl2.UseVisualStyleBackColor = true;
             this.Btn_CuentProcCl2.Click += new System.EventHandler(this.Btn_CuentProcCl2_Click_1);
-            // 
-            // button1
-            // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(50)))), ((int)(((byte)(70)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(61)))), ((int)(((byte)(92)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Image = global::Capa_Vista_Logistica.Properties.Resources.verificado1;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 216);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(165, 37);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Cuentas Corrientes";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // Btn_MenuProcesosOpcion7
             // 
@@ -508,30 +561,11 @@
             this.Btn_MenuProcesosOpcion1.UseVisualStyleBackColor = true;
             this.Btn_MenuProcesosOpcion1.Click += new System.EventHandler(this.btnMenuProcesosOpcion1_Click);
             // 
-            // Btn_MenuProcesos
-            // 
-            this.Btn_MenuProcesos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Btn_MenuProcesos.FlatAppearance.BorderSize = 0;
-            this.Btn_MenuProcesos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(50)))), ((int)(((byte)(70)))));
-            this.Btn_MenuProcesos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(61)))), ((int)(((byte)(92)))));
-            this.Btn_MenuProcesos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_MenuProcesos.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_MenuProcesos.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Btn_MenuProcesos.Image = global::Capa_Vista_Logistica.Properties.Resources.reporte;
-            this.Btn_MenuProcesos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_MenuProcesos.Location = new System.Drawing.Point(0, 603);
-            this.Btn_MenuProcesos.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn_MenuProcesos.Name = "Btn_MenuProcesos";
-            this.Btn_MenuProcesos.Size = new System.Drawing.Size(165, 37);
-            this.Btn_MenuProcesos.TabIndex = 5;
-            this.Btn_MenuProcesos.Text = "Procesos";
-            this.Btn_MenuProcesos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Btn_MenuProcesos.UseVisualStyleBackColor = true;
-            this.Btn_MenuProcesos.Click += new System.EventHandler(this.btnMenuProcesos_Click);
-            // 
             // panelMenuCatalogos
             // 
             this.panelMenuCatalogos.AutoSize = true;
+            this.panelMenuCatalogos.Controls.Add(this.Btn_SIUMant1);
+            this.panelMenuCatalogos.Controls.Add(this.btnSeparacionSIU);
             this.panelMenuCatalogos.Controls.Add(this.Btn_ComMant4);
             this.panelMenuCatalogos.Controls.Add(this.Btn_ComMant3);
             this.panelMenuCatalogos.Controls.Add(this.Btn_ComMant1);
@@ -552,7 +586,7 @@
             this.panelMenuCatalogos.Location = new System.Drawing.Point(0, 37);
             this.panelMenuCatalogos.Margin = new System.Windows.Forms.Padding(2);
             this.panelMenuCatalogos.Name = "panelMenuCatalogos";
-            this.panelMenuCatalogos.Size = new System.Drawing.Size(165, 566);
+            this.panelMenuCatalogos.Size = new System.Drawing.Size(165, 636);
             this.panelMenuCatalogos.TabIndex = 4;
             this.panelMenuCatalogos.Visible = false;
             // 
@@ -609,27 +643,6 @@
             this.Btn_ComMant1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_ComMant1.UseVisualStyleBackColor = true;
             this.Btn_ComMant1.Click += new System.EventHandler(this.Btn_ComMant1_Click_1);
-            // 
-            // btnSeparacionComercial
-            // 
-            this.btnSeparacionComercial.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnSeparacionComercial.FlatAppearance.BorderSize = 0;
-            this.btnSeparacionComercial.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(50)))), ((int)(((byte)(70)))));
-            this.btnSeparacionComercial.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(61)))), ((int)(((byte)(92)))));
-            this.btnSeparacionComercial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSeparacionComercial.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSeparacionComercial.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnSeparacionComercial.Image = global::Capa_Vista_Logistica.Properties.Resources.verificado1;
-            this.btnSeparacionComercial.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSeparacionComercial.Location = new System.Drawing.Point(0, 430);
-            this.btnSeparacionComercial.Margin = new System.Windows.Forms.Padding(2);
-            this.btnSeparacionComercial.Name = "btnSeparacionComercial";
-            this.btnSeparacionComercial.Size = new System.Drawing.Size(165, 37);
-            this.btnSeparacionComercial.TabIndex = 19;
-            this.btnSeparacionComercial.Text = "Comercial";
-            this.btnSeparacionComercial.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSeparacionComercial.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnSeparacionComercial.UseVisualStyleBackColor = true;
             // 
             // Btn_CuentMantProv1
             // 
@@ -720,27 +733,6 @@
             this.Btn_CuentMantClient1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_CuentMantClient1.UseVisualStyleBackColor = true;
             this.Btn_CuentMantClient1.Click += new System.EventHandler(this.Btn_CuentMantClient1_Click_1);
-            // 
-            // btnSeparacionCuentasCorrientes
-            // 
-            this.btnSeparacionCuentasCorrientes.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnSeparacionCuentasCorrientes.FlatAppearance.BorderSize = 0;
-            this.btnSeparacionCuentasCorrientes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(50)))), ((int)(((byte)(70)))));
-            this.btnSeparacionCuentasCorrientes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(61)))), ((int)(((byte)(92)))));
-            this.btnSeparacionCuentasCorrientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSeparacionCuentasCorrientes.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSeparacionCuentasCorrientes.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnSeparacionCuentasCorrientes.Image = global::Capa_Vista_Logistica.Properties.Resources.verificado1;
-            this.btnSeparacionCuentasCorrientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSeparacionCuentasCorrientes.Location = new System.Drawing.Point(0, 214);
-            this.btnSeparacionCuentasCorrientes.Margin = new System.Windows.Forms.Padding(2);
-            this.btnSeparacionCuentasCorrientes.Name = "btnSeparacionCuentasCorrientes";
-            this.btnSeparacionCuentasCorrientes.Size = new System.Drawing.Size(165, 37);
-            this.btnSeparacionCuentasCorrientes.TabIndex = 12;
-            this.btnSeparacionCuentasCorrientes.Text = "Cuentas Corrientes";
-            this.btnSeparacionCuentasCorrientes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSeparacionCuentasCorrientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnSeparacionCuentasCorrientes.UseVisualStyleBackColor = true;
             // 
             // Btn_MenuCatalogosOpcion6
             // 
@@ -850,6 +842,233 @@
             this.Btn_MenuCatalogosOpcion1.UseVisualStyleBackColor = true;
             this.Btn_MenuCatalogosOpcion1.Click += new System.EventHandler(this.btnMenuCatalogosOpcion1_Click);
             // 
+            // panelBarraTitulo
+            // 
+            this.panelBarraTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(223)))), ((int)(((byte)(200)))));
+            this.panelBarraTitulo.Controls.Add(this.Lbl_nombrecarnet);
+            this.panelBarraTitulo.Controls.Add(this.Pic_logistica);
+            this.panelBarraTitulo.Controls.Add(this.btnRestaurar);
+            this.panelBarraTitulo.Controls.Add(this.btnMinimizar);
+            this.panelBarraTitulo.Controls.Add(this.btnMaximizar);
+            this.panelBarraTitulo.Controls.Add(this.btnCerrar);
+            this.panelBarraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelBarraTitulo.Location = new System.Drawing.Point(0, 0);
+            this.panelBarraTitulo.Margin = new System.Windows.Forms.Padding(2);
+            this.panelBarraTitulo.Name = "panelBarraTitulo";
+            this.panelBarraTitulo.Size = new System.Drawing.Size(1212, 32);
+            this.panelBarraTitulo.TabIndex = 0;
+            this.panelBarraTitulo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelBarraTitulo_MouseMove);
+            // 
+            // Btn_SIUMant1
+            // 
+            this.Btn_SIUMant1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Btn_SIUMant1.FlatAppearance.BorderSize = 0;
+            this.Btn_SIUMant1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_SIUMant1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_SIUMant1.ForeColor = System.Drawing.Color.Black;
+            this.Btn_SIUMant1.Location = new System.Drawing.Point(0, 603);
+            this.Btn_SIUMant1.Margin = new System.Windows.Forms.Padding(2);
+            this.Btn_SIUMant1.Name = "Btn_SIUMant1";
+            this.Btn_SIUMant1.Padding = new System.Windows.Forms.Padding(26, 0, 0, 0);
+            this.Btn_SIUMant1.Size = new System.Drawing.Size(165, 33);
+            this.Btn_SIUMant1.TabIndex = 24;
+            this.Btn_SIUMant1.Text = "Alumnos";
+            this.Btn_SIUMant1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_SIUMant1.UseVisualStyleBackColor = true;
+            this.Btn_SIUMant1.Click += new System.EventHandler(this.Btn_SIUMant1_Click);
+            // 
+            // Lbl_nombrecarnet
+            // 
+            this.Lbl_nombrecarnet.AutoSize = true;
+            this.Lbl_nombrecarnet.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_nombrecarnet.Location = new System.Drawing.Point(47, 9);
+            this.Lbl_nombrecarnet.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Lbl_nombrecarnet.Name = "Lbl_nombrecarnet";
+            this.Lbl_nombrecarnet.Size = new System.Drawing.Size(310, 19);
+            this.Lbl_nombrecarnet.TabIndex = 6;
+            this.Lbl_nombrecarnet.Text = "Pedro Alejandro Citalán Herrera 0901-20-16151";
+            // 
+            // Pic_empresa
+            // 
+            this.Pic_empresa.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Pic_empresa.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.Pic_empresa.Image = global::Capa_Vista_Logistica.Properties.Resources.vault;
+            this.Pic_empresa.Location = new System.Drawing.Point(292, 110);
+            this.Pic_empresa.Margin = new System.Windows.Forms.Padding(2);
+            this.Pic_empresa.Name = "Pic_empresa";
+            this.Pic_empresa.Size = new System.Drawing.Size(422, 380);
+            this.Pic_empresa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Pic_empresa.TabIndex = 0;
+            this.Pic_empresa.TabStop = false;
+            // 
+            // Btn_ayuda
+            // 
+            this.Btn_ayuda.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Btn_ayuda.FlatAppearance.BorderSize = 0;
+            this.Btn_ayuda.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(50)))), ((int)(((byte)(70)))));
+            this.Btn_ayuda.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(61)))), ((int)(((byte)(92)))));
+            this.Btn_ayuda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_ayuda.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_ayuda.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Btn_ayuda.Image = global::Capa_Vista_Logistica.Properties.Resources.preguntas_1;
+            this.Btn_ayuda.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_ayuda.Location = new System.Drawing.Point(0, 1419);
+            this.Btn_ayuda.Margin = new System.Windows.Forms.Padding(2);
+            this.Btn_ayuda.Name = "Btn_ayuda";
+            this.Btn_ayuda.Size = new System.Drawing.Size(165, 35);
+            this.Btn_ayuda.TabIndex = 12;
+            this.Btn_ayuda.Text = "Ayuda";
+            this.Btn_ayuda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Btn_ayuda.UseVisualStyleBackColor = true;
+            this.Btn_ayuda.Click += new System.EventHandler(this.Btn_ayuda_Click);
+            // 
+            // Btn_Salir
+            // 
+            this.Btn_Salir.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.Btn_Salir.FlatAppearance.BorderSize = 0;
+            this.Btn_Salir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(50)))), ((int)(((byte)(70)))));
+            this.Btn_Salir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(61)))), ((int)(((byte)(92)))));
+            this.Btn_Salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_Salir.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Salir.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Btn_Salir.Image = global::Capa_Vista_Logistica.Properties.Resources.cerrar_sesion_1;
+            this.Btn_Salir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_Salir.Location = new System.Drawing.Point(0, 1454);
+            this.Btn_Salir.Margin = new System.Windows.Forms.Padding(2);
+            this.Btn_Salir.Name = "Btn_Salir";
+            this.Btn_Salir.Size = new System.Drawing.Size(165, 35);
+            this.Btn_Salir.TabIndex = 7;
+            this.Btn_Salir.Text = "Salir";
+            this.Btn_Salir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Btn_Salir.UseVisualStyleBackColor = true;
+            this.Btn_Salir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // button2
+            // 
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(50)))), ((int)(((byte)(70)))));
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(61)))), ((int)(((byte)(92)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button2.Image = global::Capa_Vista_Logistica.Properties.Resources.verificado1;
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(0, 492);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(165, 37);
+            this.button2.TabIndex = 26;
+            this.button2.Text = "Comercial";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(50)))), ((int)(((byte)(70)))));
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(61)))), ((int)(((byte)(92)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Image = global::Capa_Vista_Logistica.Properties.Resources.verificado1;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(0, 216);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(165, 37);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "Cuentas Corrientes";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // Btn_MenuProcesos
+            // 
+            this.Btn_MenuProcesos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Btn_MenuProcesos.FlatAppearance.BorderSize = 0;
+            this.Btn_MenuProcesos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(50)))), ((int)(((byte)(70)))));
+            this.Btn_MenuProcesos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(61)))), ((int)(((byte)(92)))));
+            this.Btn_MenuProcesos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Btn_MenuProcesos.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_MenuProcesos.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Btn_MenuProcesos.Image = global::Capa_Vista_Logistica.Properties.Resources.reporte;
+            this.Btn_MenuProcesos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_MenuProcesos.Location = new System.Drawing.Point(0, 673);
+            this.Btn_MenuProcesos.Margin = new System.Windows.Forms.Padding(2);
+            this.Btn_MenuProcesos.Name = "Btn_MenuProcesos";
+            this.Btn_MenuProcesos.Size = new System.Drawing.Size(165, 37);
+            this.Btn_MenuProcesos.TabIndex = 5;
+            this.Btn_MenuProcesos.Text = "Procesos";
+            this.Btn_MenuProcesos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.Btn_MenuProcesos.UseVisualStyleBackColor = true;
+            this.Btn_MenuProcesos.Click += new System.EventHandler(this.btnMenuProcesos_Click);
+            // 
+            // btnSeparacionSIU
+            // 
+            this.btnSeparacionSIU.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSeparacionSIU.FlatAppearance.BorderSize = 0;
+            this.btnSeparacionSIU.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(50)))), ((int)(((byte)(70)))));
+            this.btnSeparacionSIU.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(61)))), ((int)(((byte)(92)))));
+            this.btnSeparacionSIU.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSeparacionSIU.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSeparacionSIU.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSeparacionSIU.Image = global::Capa_Vista_Logistica.Properties.Resources.actualizarR;
+            this.btnSeparacionSIU.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSeparacionSIU.Location = new System.Drawing.Point(0, 566);
+            this.btnSeparacionSIU.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSeparacionSIU.Name = "btnSeparacionSIU";
+            this.btnSeparacionSIU.Size = new System.Drawing.Size(165, 37);
+            this.btnSeparacionSIU.TabIndex = 23;
+            this.btnSeparacionSIU.Text = "Examen";
+            this.btnSeparacionSIU.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSeparacionSIU.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSeparacionSIU.UseVisualStyleBackColor = true;
+            // 
+            // btnSeparacionComercial
+            // 
+            this.btnSeparacionComercial.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSeparacionComercial.FlatAppearance.BorderSize = 0;
+            this.btnSeparacionComercial.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(50)))), ((int)(((byte)(70)))));
+            this.btnSeparacionComercial.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(61)))), ((int)(((byte)(92)))));
+            this.btnSeparacionComercial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSeparacionComercial.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSeparacionComercial.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSeparacionComercial.Image = global::Capa_Vista_Logistica.Properties.Resources.verificado1;
+            this.btnSeparacionComercial.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSeparacionComercial.Location = new System.Drawing.Point(0, 430);
+            this.btnSeparacionComercial.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSeparacionComercial.Name = "btnSeparacionComercial";
+            this.btnSeparacionComercial.Size = new System.Drawing.Size(165, 37);
+            this.btnSeparacionComercial.TabIndex = 19;
+            this.btnSeparacionComercial.Text = "Comercial";
+            this.btnSeparacionComercial.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSeparacionComercial.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSeparacionComercial.UseVisualStyleBackColor = true;
+            // 
+            // btnSeparacionCuentasCorrientes
+            // 
+            this.btnSeparacionCuentasCorrientes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSeparacionCuentasCorrientes.FlatAppearance.BorderSize = 0;
+            this.btnSeparacionCuentasCorrientes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(50)))), ((int)(((byte)(70)))));
+            this.btnSeparacionCuentasCorrientes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(61)))), ((int)(((byte)(92)))));
+            this.btnSeparacionCuentasCorrientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSeparacionCuentasCorrientes.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSeparacionCuentasCorrientes.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnSeparacionCuentasCorrientes.Image = global::Capa_Vista_Logistica.Properties.Resources.verificado1;
+            this.btnSeparacionCuentasCorrientes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSeparacionCuentasCorrientes.Location = new System.Drawing.Point(0, 214);
+            this.btnSeparacionCuentasCorrientes.Margin = new System.Windows.Forms.Padding(2);
+            this.btnSeparacionCuentasCorrientes.Name = "btnSeparacionCuentasCorrientes";
+            this.btnSeparacionCuentasCorrientes.Size = new System.Drawing.Size(165, 37);
+            this.btnSeparacionCuentasCorrientes.TabIndex = 12;
+            this.btnSeparacionCuentasCorrientes.Text = "Cuentas Corrientes";
+            this.btnSeparacionCuentasCorrientes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSeparacionCuentasCorrientes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSeparacionCuentasCorrientes.UseVisualStyleBackColor = true;
+            // 
             // Btn_MenuCatalogos
             // 
             this.Btn_MenuCatalogos.Dock = System.Windows.Forms.DockStyle.Top;
@@ -871,22 +1090,6 @@
             this.Btn_MenuCatalogos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.Btn_MenuCatalogos.UseVisualStyleBackColor = true;
             this.Btn_MenuCatalogos.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // panelBarraTitulo
-            // 
-            this.panelBarraTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(223)))), ((int)(((byte)(200)))));
-            this.panelBarraTitulo.Controls.Add(this.Pic_logistica);
-            this.panelBarraTitulo.Controls.Add(this.btnRestaurar);
-            this.panelBarraTitulo.Controls.Add(this.btnMinimizar);
-            this.panelBarraTitulo.Controls.Add(this.btnMaximizar);
-            this.panelBarraTitulo.Controls.Add(this.btnCerrar);
-            this.panelBarraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelBarraTitulo.Location = new System.Drawing.Point(0, 0);
-            this.panelBarraTitulo.Margin = new System.Windows.Forms.Padding(2);
-            this.panelBarraTitulo.Name = "panelBarraTitulo";
-            this.panelBarraTitulo.Size = new System.Drawing.Size(1212, 32);
-            this.panelBarraTitulo.TabIndex = 0;
-            this.panelBarraTitulo.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panelBarraTitulo_MouseMove);
             // 
             // Pic_logistica
             // 
@@ -956,153 +1159,6 @@
             this.btnCerrar.TabStop = false;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
-            // Btn_CuentProcCl1
-            // 
-            this.Btn_CuentProcCl1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Btn_CuentProcCl1.FlatAppearance.BorderSize = 0;
-            this.Btn_CuentProcCl1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_CuentProcCl1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_CuentProcCl1.ForeColor = System.Drawing.Color.Black;
-            this.Btn_CuentProcCl1.Location = new System.Drawing.Point(0, 351);
-            this.Btn_CuentProcCl1.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn_CuentProcCl1.Name = "Btn_CuentProcCl1";
-            this.Btn_CuentProcCl1.Padding = new System.Windows.Forms.Padding(26, 0, 0, 0);
-            this.Btn_CuentProcCl1.Size = new System.Drawing.Size(165, 47);
-            this.Btn_CuentProcCl1.TabIndex = 23;
-            this.Btn_CuentProcCl1.Text = "Deudas Clientes";
-            this.Btn_CuentProcCl1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_CuentProcCl1.UseVisualStyleBackColor = true;
-            this.Btn_CuentProcCl1.Click += new System.EventHandler(this.Btn_CuentProcCl1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(50)))), ((int)(((byte)(70)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(61)))), ((int)(((byte)(92)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Image = global::Capa_Vista_Logistica.Properties.Resources.verificado1;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 492);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(165, 37);
-            this.button2.TabIndex = 26;
-            this.button2.Text = "Comercial";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // Btn_ComProcC1
-            // 
-            this.Btn_ComProcC1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Btn_ComProcC1.FlatAppearance.BorderSize = 0;
-            this.Btn_ComProcC1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_ComProcC1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_ComProcC1.ForeColor = System.Drawing.Color.Black;
-            this.Btn_ComProcC1.Location = new System.Drawing.Point(0, 529);
-            this.Btn_ComProcC1.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn_ComProcC1.Name = "Btn_ComProcC1";
-            this.Btn_ComProcC1.Padding = new System.Windows.Forms.Padding(26, 0, 0, 0);
-            this.Btn_ComProcC1.Size = new System.Drawing.Size(165, 30);
-            this.Btn_ComProcC1.TabIndex = 27;
-            this.Btn_ComProcC1.Text = "Compra";
-            this.Btn_ComProcC1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_ComProcC1.UseVisualStyleBackColor = true;
-            this.Btn_ComProcC1.Click += new System.EventHandler(this.Btn_ComProcC1_Click);
-            // 
-            // Btn_ComProcV1
-            // 
-            this.Btn_ComProcV1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Btn_ComProcV1.FlatAppearance.BorderSize = 0;
-            this.Btn_ComProcV1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_ComProcV1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_ComProcV1.ForeColor = System.Drawing.Color.Black;
-            this.Btn_ComProcV1.Location = new System.Drawing.Point(0, 559);
-            this.Btn_ComProcV1.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn_ComProcV1.Name = "Btn_ComProcV1";
-            this.Btn_ComProcV1.Padding = new System.Windows.Forms.Padding(26, 0, 0, 0);
-            this.Btn_ComProcV1.Size = new System.Drawing.Size(165, 30);
-            this.Btn_ComProcV1.TabIndex = 28;
-            this.Btn_ComProcV1.Text = "Venta";
-            this.Btn_ComProcV1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_ComProcV1.UseVisualStyleBackColor = true;
-            this.Btn_ComProcV1.Click += new System.EventHandler(this.Btn_ComProcV1_Click);
-            // 
-            // Btn_ComProc3
-            // 
-            this.Btn_ComProc3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Btn_ComProc3.FlatAppearance.BorderSize = 0;
-            this.Btn_ComProc3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_ComProc3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_ComProc3.ForeColor = System.Drawing.Color.Black;
-            this.Btn_ComProc3.Location = new System.Drawing.Point(0, 589);
-            this.Btn_ComProc3.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn_ComProc3.Name = "Btn_ComProc3";
-            this.Btn_ComProc3.Padding = new System.Windows.Forms.Padding(26, 0, 0, 0);
-            this.Btn_ComProc3.Size = new System.Drawing.Size(165, 30);
-            this.Btn_ComProc3.TabIndex = 29;
-            this.Btn_ComProc3.Text = "Comisiones";
-            this.Btn_ComProc3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_ComProc3.UseVisualStyleBackColor = true;
-            this.Btn_ComProc3.Click += new System.EventHandler(this.Btn_ComProc3_Click);
-            // 
-            // Btn_ComProc4
-            // 
-            this.Btn_ComProc4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Btn_ComProc4.FlatAppearance.BorderSize = 0;
-            this.Btn_ComProc4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_ComProc4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_ComProc4.ForeColor = System.Drawing.Color.Black;
-            this.Btn_ComProc4.Location = new System.Drawing.Point(0, 619);
-            this.Btn_ComProc4.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn_ComProc4.Name = "Btn_ComProc4";
-            this.Btn_ComProc4.Padding = new System.Windows.Forms.Padding(26, 0, 0, 0);
-            this.Btn_ComProc4.Size = new System.Drawing.Size(165, 30);
-            this.Btn_ComProc4.TabIndex = 30;
-            this.Btn_ComProc4.Text = "Cotización";
-            this.Btn_ComProc4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_ComProc4.UseVisualStyleBackColor = true;
-            this.Btn_ComProc4.Click += new System.EventHandler(this.Btn_ComProc4_Click);
-            // 
-            // Btn_ComProc5
-            // 
-            this.Btn_ComProc5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Btn_ComProc5.FlatAppearance.BorderSize = 0;
-            this.Btn_ComProc5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_ComProc5.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_ComProc5.ForeColor = System.Drawing.Color.Black;
-            this.Btn_ComProc5.Location = new System.Drawing.Point(0, 649);
-            this.Btn_ComProc5.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn_ComProc5.Name = "Btn_ComProc5";
-            this.Btn_ComProc5.Padding = new System.Windows.Forms.Padding(26, 0, 0, 0);
-            this.Btn_ComProc5.Size = new System.Drawing.Size(165, 30);
-            this.Btn_ComProc5.TabIndex = 31;
-            this.Btn_ComProc5.Text = "Factura";
-            this.Btn_ComProc5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_ComProc5.UseVisualStyleBackColor = true;
-            this.Btn_ComProc5.Click += new System.EventHandler(this.Btn_ComProc5_Click);
-            // 
-            // Btn_ComProc6
-            // 
-            this.Btn_ComProc6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Btn_ComProc6.FlatAppearance.BorderSize = 0;
-            this.Btn_ComProc6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_ComProc6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_ComProc6.ForeColor = System.Drawing.Color.Black;
-            this.Btn_ComProc6.Location = new System.Drawing.Point(0, 679);
-            this.Btn_ComProc6.Margin = new System.Windows.Forms.Padding(2);
-            this.Btn_ComProc6.Name = "Btn_ComProc6";
-            this.Btn_ComProc6.Padding = new System.Windows.Forms.Padding(26, 0, 0, 0);
-            this.Btn_ComProc6.Size = new System.Drawing.Size(165, 30);
-            this.Btn_ComProc6.TabIndex = 32;
-            this.Btn_ComProc6.Text = "Pedidos";
-            this.Btn_ComProc6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_ComProc6.UseVisualStyleBackColor = true;
-            this.Btn_ComProc6.Click += new System.EventHandler(this.Btn_ComProc6_Click);
-            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1121,12 +1177,13 @@
             this.panelIdentificacion.ResumeLayout(false);
             this.panelIdentificacion.PerformLayout();
             this.panelformularios.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.Pic_empresa)).EndInit();
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();
             this.panelMenuProcesos.ResumeLayout(false);
             this.panelMenuCatalogos.ResumeLayout(false);
             this.panelBarraTitulo.ResumeLayout(false);
+            this.panelBarraTitulo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_empresa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_logistica)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnRestaurar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMinimizar)).EndInit();
@@ -1195,6 +1252,9 @@
         private System.Windows.Forms.Button Btn_ComProc5;
         private System.Windows.Forms.Button Btn_ComProc4;
         private System.Windows.Forms.Button Btn_ComProc3;
+        private System.Windows.Forms.Button Btn_SIUMant1;
+        private System.Windows.Forms.Button btnSeparacionSIU;
+        private System.Windows.Forms.Label Lbl_nombrecarnet;
     }
 }
 

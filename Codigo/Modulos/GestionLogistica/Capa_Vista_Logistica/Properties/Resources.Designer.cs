@@ -63,6 +63,16 @@ namespace Capa_Vista_Logistica.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap actualizarR {
+            get {
+                object obj = ResourceManager.GetObject("actualizarR", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap agregar_archivo {
             get {
                 object obj = ResourceManager.GetObject("agregar-archivo", resourceCulture);

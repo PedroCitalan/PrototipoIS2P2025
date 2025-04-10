@@ -439,6 +439,12 @@ namespace Capa_Vista_Logistica
             ocultaSubMenu();
         }
 
+        private void Btn_SIUMant1_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<SIUAlumnos>();
+            ocultaSubMenu();
+        }
+
         #endregion
         //Metodo para abrir formularios dentro de panel contenedor
         private void AbrirFormulario<MiForm>() where MiForm : Form, new() {

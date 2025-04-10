@@ -638,6 +638,20 @@ DROP TABLE IF EXISTS tbl_dedu_perp;
 DROP TABLE IF EXISTS tbl_empresas;
 DROP TABLE IF EXISTS tbl_polizas;
 
+-- -----------------------------------------------------
+-- Table `educativo`.`Alumnos`
+-- -----------------------------------------------------
+CREATE TABLE Tbl_alumnos
+ (
+  carnet_alumno VARCHAR(15),
+  nombre_alumno VARCHAR(45),
+  direccion_alumno VARCHAR(45),
+  telefono_alumno VARCHAR(45),
+  email_alumno VARCHAR(20),
+  estatus_alumno VARCHAR(1),
+  PRIMARY KEY (carnet_alumno)
+) ENGINE = InnoDB DEFAULT CHARSET=latin1;
+
 CREATE TABLE tbl_puestos_trabajo (
 	pk_id_puestos INT NOT NULL AUTO_INCREMENT,
     puestos_nombre_puesto VARCHAR(50),
